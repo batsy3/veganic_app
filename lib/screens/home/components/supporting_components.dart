@@ -1,5 +1,7 @@
+// ignore_for_file: prefer_const_literals_to_create_immutables
+
 import 'package:flutter/material.dart';
-import 'package:veganic_app/screens/home/components/background.dart';
+import 'package:veganic_app/screens/home/components/background_components.dart';
 
 class Components extends StatelessWidget {
   @override
@@ -10,11 +12,12 @@ class Components extends StatelessWidget {
     //total height and width of screen
     return Background(
       child: Column(
+        // crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
           Container(
             alignment: Alignment.center,
-            padding: EdgeInsets.all(32),
+            margin: EdgeInsets.all(10),
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
@@ -27,22 +30,9 @@ class Components extends StatelessWidget {
               child: Text('GET STARTED'),
               onPressed: () {},
             ),
-          )
+          ),
         ],
       ),
     );
-    // child: Column(children: <Widget>[
-    //   ClipRRect(
-    //     borderRadius: BorderRadius.circular(10),
-    //     child: Stack(
-    //       children: <Widget>[
-    //         Positioned.fill(
-    //             child: Container(
-    //           decoration: const BoxDecoration(color: Colors.white),
-    //         ))
-    //       ],
-    //     ),
-    //   )
-    // ]),
   }
 }
