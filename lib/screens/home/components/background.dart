@@ -66,17 +66,17 @@ class Background extends StatelessWidget {
                 fit: BoxFit.cover,
               )),
           Positioned(
-              top: 260,
-              left: 65,
+              top: 20,
+              left: 110,
               child: Image.asset(
-                "assets/images/toppng_1.png",
+                "assets/images/Group_1731.png",
                 fit: BoxFit.cover,
               )),
           Positioned(
               top: 260,
-              left: 65,
+              left: 70,
               child: Image.asset(
-                "assets/images/Group.png",
+                "assets/images/toppng_1.png",
                 fit: BoxFit.cover,
               )),
           child,
