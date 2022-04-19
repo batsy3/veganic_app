@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:veganic_app/screens/home/home.dart';
+import 'package:veganic_app/screens/landingPage/components/LandingPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +17,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Veganic',
-        home: LandingPage());
+        // home: LandingPage());
   }
 }

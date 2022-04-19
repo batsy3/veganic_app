@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:veganic_app/screens/home/components/background_components.dart';
+import 'package:veganic_app/screens/landingPage/components/backgroundUtils.dart';
 
 class Components extends StatelessWidget {
   @override
